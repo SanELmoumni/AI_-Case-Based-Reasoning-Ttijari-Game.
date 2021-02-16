@@ -31,9 +31,9 @@ public class MainDeJeu {
 		int num = -5;
 		
 		for(int i=0;i<10;i++) {
-				System.out.println("Saisissez la couleur de la carte souhaitée ( Oros - Bastos - Shbadas - Copas) ..." );
+				System.out.println("Saisissez la couleur de la carte souhaitï¿½e ( Oros - Bastos - Shbadas - Copas) ..." );
 				coul = sc.nextLine();
-				System.out.println("Saisissez le numéro de la carte souhaitée ( Oros - Bastos - Shbadas - Copas) ..." );
+				System.out.println("Saisissez le numï¿½ro de la carte souhaitï¿½e ( Oros - Bastos - Shbadas - Copas) ..." );
 				num = sn.nextInt();
 				main.add(new Carte(coul,num));
 		}
@@ -139,7 +139,7 @@ public class MainDeJeu {
 	}
 	
 	
-	//Les points en communs que peuvent apporter les deux mains à la fois en fonction du même numéro.
+	//Les points en communs que peuvent apporter les deux mains ï¿½ la fois en fonction du mï¿½me numï¿½ro.
 	public static int similaritePoints(ArrayList<Carte> m1, ArrayList<Carte> m2) {
 		ArrayList<Carte> temp = new ArrayList(m2);
 		int i,j=0;
@@ -319,7 +319,7 @@ public class MainDeJeu {
 			System.out.println("Similarite avec la main "+i+" = "+similarite+"%");
 		}
 		System.out.println("La main la plus similaire est celle qui occupe la position : "+position+".");
-		System.out.println("Le taux de similarité est de : "+max+"%.");
+		System.out.println("Le taux de similaritï¿½ est de : "+max+"%.");
 		return position;
 	}
 
@@ -329,7 +329,7 @@ public class MainDeJeu {
 		for(int i=0; i<10; i++) {
 			ret += " Couleur : ";
 			ret += main.get(i).getCouleur();
-			ret += " Numéro : ";
+			ret += " Numï¿½ro : ";
 			ret += main.get(i).getNumero();
 			ret += " Point : ";
 			ret += main.get(i).getPoint();
@@ -337,6 +337,5 @@ public class MainDeJeu {
 		}
 		return ret;
 	}
-	
 
 }
