@@ -14,7 +14,7 @@ Attijari's game is a famous moroccan card game, where you have to announce and p
 
 To retrieve a case from the general knowledge, we must find the most similar case to the current case (which is 10 cards). 
 
-The similarity computation is implementend using the static method : ```similariteMain.```
+The similarity computation is implementend using the static method : ```similariteMain.``` in the ```MainDeJeu.java``` class.
 
 ## Ttijari game : 
 ![Case-Based reasoning](Images/cards.jpg)
