@@ -18,6 +18,7 @@ The similarity computation is implementend using the static method : ```similari
 
 ## Ttijari game : 
 ![Case-Based reasoning](Images/cards.jpg)
+
 Ttijari game is an old moroccan game, where 4 players (2 each team) gets 10 cards each, and have to announce a score after distributing all the cards. 
 
 After each player announce its own gambling score, the game starts and each player have to play and drop a card and collect some scores, where each color and number have a defined value (game details aren't important to compute similarity).
